@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-hall",
-      "name": "hall",
+      "name": "Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -24,35 +24,29 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.46372623870951557,
-        "pitch": -0.009875861845101142,
+        "yaw": 0.42469678465195315,
+        "pitch": 0,
         "fov": 1.4967563682390181
       },
       "linkHotspots": [
         {
-          "yaw": 2.2200046913639886,
-          "pitch": 0.097266459054687,
+          "yaw": 0.32364319701494537,
+          "pitch": 0.08136050501012093,
           "rotation": 0,
+          "target": "0-hall"
+        },
+        {
+          "yaw": 2.249864210887157,
+          "pitch": 0.050035671206337895,
+          "rotation": 6.283185307179586,
           "target": "3-bathroom"
-        },
-        {
-          "yaw": 0.10059921032949859,
-          "pitch": 0.0596850938315896,
-          "rotation": 0,
-          "target": "2-balcony"
-        },
-        {
-          "yaw": 0.42045410078020673,
-          "pitch": 0.3833117382765714,
-          "rotation": 0,
-          "target": "1-studio"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-studio",
-      "name": "studio",
+      "id": "1-living-room",
+      "name": "Living room",
       "levels": [
         {
           "tileSize": 256,
@@ -74,26 +68,26 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.5844960210412502,
-        "pitch": -0.017999293211374834,
+        "yaw": 0.10665900984409937,
+        "pitch": 0.010340285790945813,
         "fov": 1.4967563682390181
       },
       "linkHotspots": [
         {
-          "yaw": -0.2366761553630461,
-          "pitch": 0.11576169818336624,
+          "yaw": -0.26747986204230045,
+          "pitch": 0.032490760786650696,
           "rotation": 0,
           "target": "2-balcony"
         },
         {
-          "yaw": -2.5865230269147492,
-          "pitch": 0.19281927886265748,
+          "yaw": -2.5843220786916987,
+          "pitch": 0.12510211394843118,
           "rotation": 0,
           "target": "0-hall"
         },
         {
-          "yaw": -2.84093580033287,
-          "pitch": 0.17250689187954116,
+          "yaw": -2.8266399856508357,
+          "pitch": 0.1267991647675526,
           "rotation": 4.71238898038469,
           "target": "3-bathroom"
         }
@@ -102,7 +96,7 @@ var APP_DATA = {
     },
     {
       "id": "2-balcony",
-      "name": "balcony",
+      "name": "Balcony",
       "levels": [
         {
           "tileSize": 256,
@@ -124,23 +118,23 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": -0.7582494027734192,
-        "pitch": 0.06204171474566422,
+        "yaw": -0.538577366551948,
+        "pitch": 0.020311710950796424,
         "fov": 1.4967563682390181
       },
       "linkHotspots": [
         {
-          "yaw": -3.1155546202072433,
-          "pitch": 0.13725210386856368,
+          "yaw": -3.099841589633378,
+          "pitch": 0.06156139161397256,
           "rotation": 0,
-          "target": "1-studio"
+          "target": "1-living-room"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "3-bathroom",
-      "name": "bathroom",
+      "name": "Bathroom",
       "levels": [
         {
           "tileSize": 256,
@@ -162,14 +156,14 @@ var APP_DATA = {
       ],
       "faceSize": 2000,
       "initialViewParameters": {
-        "yaw": 0.5406609655917265,
-        "pitch": 0.0018238333137894358,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 1.4967563682390181
       },
       "linkHotspots": [
         {
-          "yaw": 0.020988971500120357,
-          "pitch": 0.28359662111698114,
+          "yaw": -0.003661914453957138,
+          "pitch": 0.080132950868256,
           "rotation": 0,
           "target": "0-hall"
         }
@@ -177,7 +171,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Sunrise Studio",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
